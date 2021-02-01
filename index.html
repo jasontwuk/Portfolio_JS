@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <!-- google font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Nunito:ital,wght@0,400;0,800;1,400;1,800&family=Ubuntu+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+
+    <script src="script.js" defer></script>
+    <script src="sun_moon_modes.js" defer></script>
+    <title>Jason's Portfolio</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="header_container" id="header_container">
+        <a href="index.html">
+          <img src="./img/logo_blue.svg" alt="logo" />
+        </a>
+
+        <div class="header_left">
+          <div class="sun-moon-container" id="sun-moon-container">
+            <div class="sun" id="sun">
+              <div class="sunshine"></div>
+              <div class="sunshine rotate1"></div>
+              <div class="sunshine rotate2"></div>
+              <div class="sunshine rotate3"></div>
+              <div class="sunshine rotate4"></div>
+              <div class="sunshine rotate5"></div>
+              <div class="sunshine rotate6"></div>
+              <div class="sunshine rotate7"></div>
+              <div class="sunshine rotate8"></div>
+              <div class="sunshine rotate9"></div>
+              <div class="sunshine rotate10"></div>
+              <div class="sunshine rotate11"></div>
+            </div>
+            <!-- end of sun -->
+            <div class="moon" id="moon">
+              <div class="star-container">
+                <div class="star"></div>
+              </div>
+              <!-- end of star-container -->
+            </div>
+            <!-- end of moon -->
+          </div>
+          <!-- end of sun-moon-container -->
+
+          <div class="media">
+            <a href="https://github.com/jasontwuk" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+
+            <a href="http://www.linkedin.com/in/jasonliao-twuk" target="_blank">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+
+            <a href="mailto:jasontwuk@gmail.com">
+              <i class="fas fa-envelope"> </i>
+            </a>
+          </div>
+          <!-- end of media -->
+        </div>
+        <!-- end of header_left -->
+      </div>
+      <!-- end of header_container -->
+
+      <div class="intro" id="intro">
+        <div class="intro_text">
+          <div class="intro_hello">
+            <span class="greeting1" id="greeting1">Hello.</span>
+            <span class="greeting2" id="greeting2">Hello.</span>
+            <span class="greeting3" id="greeting3">Hello.</span>
+          </div>
+          <!-- end of intro_hello -->
+          <div class="intro_name" id="intro_name">
+            <h1>I'm Jason, a front-end developer.</h1>
+          </div>
+          <!-- end of intro_name -->
+        </div>
+        <!-- end of intro_text -->
+
+        <div class="intro_portrait" id="intro_portrait">
+          <img src="./img/portrait.svg" alt="portrait" />
+        </div>
+        <!-- end of intro_portrait -->
+      </div>
+      <!-- end of intro -->
+      <div class="dots_container" id="dots_container"></div>
+    </header>
+
+    <main>
+      <section class="about" id="about">
+        <h3>About Me</h3>
+        <div class="text_container">
+          <div class="text_left">
+            <p>
+              I am a self-taught front-end developer who is passionate about
+              using my coding skills to build things.
+            </p>
+            <p>
+              When I worked as a web designer years ago, I wanted to implement
+              some features (e.g. slider / carousel) in my designs, I looked
+              through some nice open sources and was amazed by them. I was not
+              only surprised at how attractive they were, but also how many were
+              free. I love the spirit of “one for all, all for one” in the
+              programming community, that is why I would love to be part of it.
+            </p>
+          </div>
+          <!-- end of text_left -->
+
+          <div class="text_right">
+            <p>
+              Since then, I’ve been honing my coding skills, especially
+              JavaScript. Now, I have built my own slider (hooray) and other
+              projects. As I grow as a developer, I’m eager to add new skills to
+              my professional range.
+            </p>
+            <p>
+              I am seeking a full-time role where I can contribute my skills to
+              a company and help them reach their goals.
+            </p>
+          </div>
+          <!-- end of text_right -->
+        </div>
+        <!-- end of text_container -->
+
+        <div class="skills">
+          <h5>My Skills</h5>
+          <div class="skill_list">
+            <span><em>&#9900;</em>JavaScript ES6</span>
+            <span><em>&#9900;</em>JQuery</span>
+            <span><em>&#9900;</em>React</span>
+            <span><em>&#9900;</em>HTML</span>
+            <span><em>&#9900;</em>CSS</span>
+            <span><em>&#9900;</em>SASS</span>
+            <span><em>&#9900;</em>Bootstrap</span>
+            <span><em>&#9900;</em>Git</span>
+            <span><em>&#9900;</em>WordPress</span>
+            <span><em>&#9900;</em>Adobe Suite</span>
+          </div>
+        </div>
+        <!-- end of skills -->
+      </section>
+      <!-- end of about -->
+
+      <section class="projects">
+        <h3>Things I've Built</h3>
+
+        <div class="project_list">
+          <div class="project">
+            <a href="weather_forecast_app.html">
+              <div class="project_image bg_yellow">
+                <img src="./img/projects/project_1.jpg" alt="weather app" />
+              </div>
+              <h4>Weather Forecast App</h4>
+              <p>An app that shows today's and the future week's weather.</p>
+              <div class="underline_container">
+                <span class="underline">View Project <em>›</em></span>
+              </div>
+            </a>
+          </div>
+          <!-- end of project -->
+
+          <div class="project">
+            <a href="budget_app.html">
+              <div class="project_image bg_purple">
+                <img src="./img/projects/project_2.jpg" alt="budget app" />
+              </div>
+              <h4>Budget App</h4>
+              <p>This app helps users manage their budgets and expenses.</p>
+              <div class="underline_container">
+                <span class="underline">View Project <em>›</em></span>
+              </div>
+            </a>
+          </div>
+          <!-- end of project -->
+
+          <div class="project">
+            <a href="slideshow.html">
+              <div class="project_image bg_pink">
+                <img src="./img/projects/project_3.jpg" alt="slideshow" />
+              </div>
+              <h4>Slideshow</h4>
+              <p>
+                This is a responsive slideshow that is powered by JavaScript.
+              </p>
+              <div class="underline_container">
+                <span class="underline">View Project <em>›</em></span>
+              </div>
+            </a>
+          </div>
+          <!-- end of project -->
+
+          <div class="project">
+            <a href="sliding_forms.html">
+              <div class="project_image bg_green">
+                <img src="./img/projects/project_4.jpg" alt="sliding forms" />
+              </div>
+              <h4>Sliding Forms</h4>
+              <p>
+                “swup.js” is used in this project to create sliding effects.
+              </p>
+              <div class="underline_container">
+                <span class="underline">View Project <em>›</em></span>
+              </div>
+            </a>
+          </div>
+          <!-- end of project -->
+        </div>
+        <!-- end of project_list -->
+      </section>
+      <!-- end of projects -->
+
+      <section class="contact">
+        <h3>Get In Touch</h3>
+
+        <div class="contact_container">
+          <div class="contact_text">
+            <p>
+              For any enquiries, or just to say hello, please feel free to drop
+              me a line. Looking forward to starting the conversation with you.
+            </p>
+            <div class="btn_container">
+              <div class="icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <!-- end of icon -->
+              <a href="mailto:jasontwuk@gmail.com">jasontwuk@gmail.com</a>
+            </div>
+            <!-- end of btn_container -->
+            <div class="btn_container">
+              <div class="icon">
+                <i class="fab fa-linkedin-in"></i>
+              </div>
+              <!-- end of icon -->
+              <a
+                href="http://www.linkedin.com/in/jasonliao-twuk"
+                target="_blank"
+              >
+                LinkedIn
+              </a>
+            </div>
+            <!-- end of btn_container -->
+            <div class="btn_container">
+              <div class="icon">
+                <i class="fab fa-github"></i>
+              </div>
+              <!-- end of icon -->
+              <a href="https://github.com/jasontwuk" target="_blank">github</a>
+            </div>
+            <!-- end of btn_container -->
+          </div>
+          <!-- end of contact_text -->
+
+          <div class="contact_image">
+            <div class="contact_image_container">
+              <img src="img/me.jpg" alt="jason's photo" />
+
+              <div class="rainbow_container">
+                <div class="rainbow">
+                  <div class="purple_ring ring1"></div>
+                  <div class="blue_ring ring2"></div>
+                  <div class="green_ring ring3"></div>
+                  <div class="yellow_ring ring4"></div>
+                  <div class="orange_ring ring5"></div>
+                  <div class="red_ring ring6"></div>
+                  <div class="circle_text">
+                    <span class="char1">C</span>
+                    <span class="char2">o</span>
+                    <span class="char3">d</span>
+                    <span class="char4">e</span>
+                    <span class="char5"> </span>
+                    <span class="char6">W</span>
+                    <span class="char7">i</span>
+                    <span class="char8">t</span>
+                    <span class="char9">h</span>
+                    <span class="char10"> </span>
+                    <span class="char11">L</span>
+                    <span class="char12">o</span>
+                    <span class="char13">v</span>
+                    <span class="char14">e</span>
+                    <span class="char15">.</span>
+                    <span class="char16"> </span>
+                  </div>
+                </div>
+                <!-- end of rainbow -->
+              </div>
+              <!-- end of rainbow_container -->
+            </div>
+          </div>
+          <!-- end of contact_image -->
+        </div>
+        <!-- end of contact_container -->
+      </section>
+      <!-- end of contact -->
+    </main>
+
+    <footer>
+      <p>© 2020 - present Jason Liao. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>

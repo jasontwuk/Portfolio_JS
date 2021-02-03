@@ -46,7 +46,7 @@ function addDot() {
 
 function dotBlink() {
   for (let i = 0; i < dots.length; i++) {
-    let boolean = Math.random() * 10 > 5;
+    let boolean = Math.random() * 10 > 7;
     dots[i].classList.remove("blink");
     if (boolean) {
       dots[i].classList.add("blink");

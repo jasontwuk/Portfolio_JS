@@ -29,7 +29,7 @@ sunMoonContainer.addEventListener("click", () => {
 
 window.addEventListener("DOMContentLoaded", modeInit);
 
-// *** In Safari, when switching between dark-mode and light-mode it can't change properly, so I added the following event listener to sunMoonContainer...
+// *** In Safari, there is a display delay when switching between dark-mode and light-mode, so I added the following event listener to the sunMoonContainer...
 sunMoonContainer.addEventListener("mouseenter", () => {
   // console.log("stop");
   // *** addInterval is from script.js

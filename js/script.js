@@ -18,7 +18,7 @@ const about = document.getElementById("about");
 // *** dots blinking effect
 header.addEventListener("mouseenter", () => {
   // console.log("start");
-  addInterval = setInterval(dotBlink, 1000);
+  addInterval = setInterval(dotBlink, 3000);
 });
 header.addEventListener("mouseleave", () => {
   // console.log("stop");

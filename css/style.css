@@ -567,8 +567,10 @@ header .dots_container .blink {
 
 .projects .project_list .project .project_image img,
 .other_projects .project_list .project .project_image img {
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 10px;
 }
 
